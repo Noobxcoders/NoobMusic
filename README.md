@@ -59,9 +59,9 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://t.me/pagal_faimly"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Noobxcoders"><img src="https://img.shields.io/badge/-Support%20Group-green.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://t.me/feelings_of_lav"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/Noobxcoders"><img src="https://img.shields.io/badge/-Support%20Channel-pink.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
