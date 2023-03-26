@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph//file/919f1ce93d4164d8c277c.jpg"
+            START_IMG_URL = "https://telegra.ph//file/5add999f427d1060949b9.jpg"
