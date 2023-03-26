@@ -1,10 +1,7 @@
 <h2 align="center">
-    ──「 🥰 laila-music player 🥰 」──
+    ──「 𝙉𝙤𝙤𝙗 ✘ 𝙘𝙤𝙙𝙚𝙧 ᵖʳᵒ 」──
 </h2>
 
-<p align="center">
-  <img src="https://telegra.ph/file/a73c91d6717285a8481d1.jpg">
-</p>
 
 <p align="center">
 <a href="https://dashboard.heroku.com/new?template=https://github.com/lavkush639214/laila-majanu-player-"><img src="https://img.shields.io/github/stars/lavkush639214/laila-majanu-player?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
