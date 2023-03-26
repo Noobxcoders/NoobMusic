@@ -80,7 +80,7 @@ START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/66d0d088c7f8c6
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/66d0d088c7f8c6f3df6a2.jpg",
+    "https://telegra.ph//file/dddd30ab7c396c2b1d1b1.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/66d0d088c7f8c6f3df6a2.jpg"
