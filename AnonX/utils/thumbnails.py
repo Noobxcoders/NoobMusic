@@ -82,6 +82,8 @@ async def gen_thumb(videoid, user_id):
         f = Image.fromarray(e)
         x = f.resize((107, 107))
 
+        images = random.choice(thumbs)
+        border = random.choice(colors)
         youtube = Image.open(f"cache/thumb{videoid}.png")
         bg = Image.open(f"AnonX/assets/{images}.png")
         image1 = changeImageSize(1280, 720, youtube)
@@ -222,6 +224,8 @@ async def gen_qthumb(videoid, user_id):
         f = Image.fromarray(e)
         x = f.resize((107, 107))
 
+        images = random.choice(thumbs)
+        border = random.choice(colors)
         youtube = Image.open(f"cache/thumb{videoid}.png")
         bg = Image.open(f"AnonX/assets/{images}.png")
         image1 = changeImageSize(1280, 720, youtube)
