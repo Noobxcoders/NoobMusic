@@ -1,4 +1,4 @@
-Don't import only fork Repo I you import it's is not 🚫 working 
+Don't import repo fork Repo If you import it's is not 🚫 working 
 <h2 align="center">
     ──「 𝙉𝙤𝙤𝙗 ✘ 𝙘𝙤𝙙𝙚𝙧 ᵖʳᵒ 」──
 </h2>
