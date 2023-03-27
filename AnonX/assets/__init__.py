@@ -4,7 +4,7 @@ thumbs = []
 
 colors = ["white", "black", "red", "orange", "yellow", "green", "cyan", "azure", "blue", "violet", "magenta", "pink"]
 
-for filename in os.listdir(".AnonX/assets"):
+for filename in os.listdir("AnonX/assets"):
 
     if filename.endswith("png"):
 
