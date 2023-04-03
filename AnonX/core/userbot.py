@@ -48,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Red_Wine_Op")
-                await self.one.join_chat("WCFnetwork")
+                await self.one.join_chat("Noobxcoders")
+                await self.one.join_chat("Noobxcoders")
             except:
                 pass
             assistants.append(1)
@@ -79,8 +79,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Red_Wine_Op")
-                await self.two.join_chat("WCFnetwork")
+                await self.two.join_chat("Noobxcoders")
+                await self.two.join_chat("Noobxcoders")
             except:
                 pass
             assistants.append(2)
@@ -110,8 +110,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("Red_Wine_Op")
-                await self.three.join_chat("WCFnetwork")
+                await self.three.join_chat("Noobxcoders")
+                await self.three.join_chat("Noobxcoders")
             except:
                 pass
             assistants.append(3)
@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("Red_Wine_Op")
-                await self.four.join_chat("WCFnetwork")
+                await self.four.join_chat("Noobxcoders")
+                await self.four.join_chat("Noobxcoders")
             except:
                 pass
             assistants.append(4)
