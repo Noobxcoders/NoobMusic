@@ -61,11 +61,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🔕 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🏋️‍♀️", url="https://t.me/Noobxcoders"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
                 text="𝘾𝙡𝙤𝙨𝙚 🔐", callback_data=f"close"
             )
         ],
