@@ -118,11 +118,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="🏵️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🌺", url="https://t.me/Noobxcoders"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
                 text="𝘾𝙡𝙤𝙨𝙚 🔐", callback_data=f"close"
             )
         ],
@@ -152,11 +147,6 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽➡️", url="https://t.me/Noobxcoders"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
                 text="𝘾𝙡𝙤𝙨𝙚 📛", callback_data=f"close"
             )
         ],
@@ -179,11 +169,6 @@ def telegram_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="⏹", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="⏮️ 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽▶️", url="https://t.me/Noobxcoders"
             ),
         ],
         [
@@ -339,11 +324,6 @@ def queue_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="⏹", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🍷 𝗖𝗵𝗮𝘁 𝗚𝗿𝗼𝘂𝗽🍷", url="https://t.me/Noobxcoders"
             ),
         ],
         [
