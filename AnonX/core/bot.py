@@ -17,19 +17,22 @@ class AnonXBot(Client):
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
         )
-
-    async def start(self):
-        await super().start()
-        get_me = await self.get_me()
-        self.username = get_me.username
-        self.id = get_me.id
-        if get_me.last_name:
-            self.name = get_me.first_name + " " + get_me.last_name
-        else:
-            self.name = get_me.first_name
-        a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
-        if a.status != "administrator":
-            LOGGER(__name__).error(
+@Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
+async def play(c: Client, m: Message):
+    await m.delete()
+    replied = m.reply_to_message
+    chat_id = m.chat.id
+    user_id = m.from_user.id
+    buttons = audio_markup(user_id)
+    if m.sender_chat:
+        return await m.reply_text("You're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")
+    try:
+        aing = await c.get_me()
+    except Exception as e:
+        return await m.reply_text(f"Error:\n\n{e}")
+    a = await c.get_chat_member(chat_id, aing.id)
+    if a.status != "administrator":
+        await m.reply_text(
                 f"**💡 ᴛᴏ ᴜsᴇ ᴍᴇ, ɪ ɴᴇᴇᴅ ᴛᴏ   ʙᴇ ᴀɴ **ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀ** ᴡɪᴛʜ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ **ᴘᴇʀᴍɪssɪᴏɴs**:\n\n» ❌ __ᴅᴇʟᴇᴛᴇ ᴍᴇssᴀɢᴇs__\n» ❌ __ʙᴀɴ ᴜsᴇʀs__\n» ❌ __ᴀᴅᴅ ᴜsᴇʀs__\n» ❌ __ᴍᴀɴᴀɢᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ__\n\nᴅᴀᴛᴀ ɪs **ᴜᴘᴅᴀᴛᴇᴅ** ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀғᴛᴇʀ ʏᴏᴜ **ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ**"
         )
         return
