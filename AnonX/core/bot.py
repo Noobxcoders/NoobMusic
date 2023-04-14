@@ -56,7 +56,6 @@ async def play(c: Client, m: Message):
         "**💡 ᴛᴏ ᴜsᴇ ᴍᴇ, ɢɪᴠᴇ ᴍᴇ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ ᴘᴇʀᴍɪssɪᴏɴ ʙᴇʟᴏᴡ:**"
         + "\n\n» ❌ __ᴀᴅᴅ ᴜsᴇʀs__\n\nᴏɴᴄᴇ ᴅᴏɴᴇ, ᴛʀʏ ᴀɢᴀɪɴ.")
         return
-            sys.exit()
         LOGGER(__name__).info(f"MusicBot Started as {self.name}")
         try:
             await self.send_message(
