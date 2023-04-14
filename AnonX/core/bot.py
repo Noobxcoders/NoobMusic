@@ -26,7 +26,7 @@ async def start(self):
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
-async def play(c: Client, m: Message):
+async def play(Client,Message):
     await m.delete()
     replied = m.reply_to_message
     chat_id = m.chat.id
