@@ -26,6 +26,22 @@ async def start(self):
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
+@Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
+async def play(c: Client, m: Message):
+    await m.delete()
+    replied = m.reply_to_message
+    chat_id = m.chat.id
+    user_id = m.from_user.id
+    buttons = audio_markup(user_id)
+    if m.sender_chat:
+        return await m.reply_text("You're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")
+    try:
+        aing = await c.get_me()
+    except Exception as e:
+        return await m.reply_text(f"Error:\n\n{e}")
+    a = await c.get_chat_member(chat_id, aing.id)
+    if a.status != "administrator":
+        await m.reply_text(
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
     if a.status != "administrator":
         await m.reply_text(
