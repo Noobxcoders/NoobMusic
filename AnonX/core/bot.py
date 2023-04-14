@@ -17,7 +17,6 @@ class AnonXBot(Client):
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
         )
-@Client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
 async def play(c: Client, m: Message):
     await m.delete()
     replied = m.reply_to_message
