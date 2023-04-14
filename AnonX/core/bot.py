@@ -40,8 +40,6 @@ async def play(c: Client, m: Message):
     except Exception as e:
         return await m.reply_text(f"Error:\n\n{e}")
     a = await c.get_chat_member(chat_id, aing.id)
-    if a.status != "administrator":
-        await m.reply_text(
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
     if a.status != "administrator":
         await m.reply_text(
