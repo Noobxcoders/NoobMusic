@@ -17,7 +17,7 @@ class AnonXBot(Client):
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
         )
-async def play(Client):
+async def play(Client, Message):
     await m.delete()
     replied = m.reply_to_message
     chat_id = m.chat.id
