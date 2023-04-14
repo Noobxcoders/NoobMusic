@@ -26,7 +26,7 @@ async def start(self):
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
-@client.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
+@app.on_message(command(["play", f"play@{BOT_USERNAME}"]) & other_filters)
 async def play(Client,Message):
     await m.delete()
     replied = m.reply_to_message
