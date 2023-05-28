@@ -5,7 +5,7 @@
 
 
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/lavkush639214/laila-majanu-player-"><img src="https://img.shields.io/github/stars/lavkush639214/laila-majanu-player?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/Noobxcoders/NoobMusic"><img src="https://img.shields.io/github/stars/lavkush639214/laila-majanu-player?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/lavkush639214/laila-majanu-player-/network/members"> <img src="https://img.shields.io/github/forks/OpSahubot/Vc-Player?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/lavkush639214/laila-majanu-player-/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
