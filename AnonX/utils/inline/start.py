@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🌸 Add Me To your Group 🌸",
+                text="🌸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🌸",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨ Help ✨",
+                text="✨ ʜᴇʟᴘ ✨",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="✨ Settings ✨", callback_data="settings_helper"
+                text="✨ sᴇᴛᴛɪɴɢs ✨", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,21 +30,21 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🌸 Add Me To You Group 🌸",
+                text="🌸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🌸",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨ Help ✨", callback_data="settings_back_helper"
+                text="✨ ᴄᴏᴍᴍᴀɴᴅs ✨", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨ Support ✨", url=config.SUPPORT_GROUP
+                text="✨ sᴜᴘᴘᴏʀᴛ ✨", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="✨ Updates ✨", url=f"https://t.me/Amazingdpzworld",
+                text="✨ ᴜᴘᴅᴀᴛᴇs ✨", url=f"https://t.me/Amazingdpzworld",
             )
         ],
 
