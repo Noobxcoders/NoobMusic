@@ -103,7 +103,7 @@ def stats_buttons(_, status):
             [
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
-                    callback_data="🔐 𝘾𝙡𝙤𝙨𝙚",
+                    callback_data="🎀 𝘾𝙡𝙤𝙨𝙚 🎀",
                 ),
             ],
         ]
@@ -121,7 +121,7 @@ def back_stats_buttons(_):
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
-                    callback_data="🔐 𝘾𝙡𝙤𝙨𝙚",
+                    callback_data="🎀 𝘾𝙡𝙤𝙨𝙚 🎀",
                 ),
             ],
         ]
@@ -159,7 +159,7 @@ def top_ten_stats_markup(_):
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
-                    callback_data="🔐 𝘾𝙡𝙤𝙨𝙚",
+                    callback_data="🎀 𝘾𝙡𝙤𝙨𝙚 🎀",
                 ),
             ],
         ]
